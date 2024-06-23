@@ -1,0 +1,18 @@
+.container{
+    background-color: darkgray;
+    display: flex;
+    height: 350px;
+    margin: 50px;
+    border-radius: 25px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.container img{
+    padding: 20px;
+    width: 300px;
+    border-radius: 50px;
+    
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
